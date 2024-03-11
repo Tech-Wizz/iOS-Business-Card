@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F90B4DD2B9F85BA009813EC /* KruizeCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F90B4DC2B9F85BA009813EC /* KruizeCardApp.swift */; };
+		7F90B4DF2B9F85BA009813EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F90B4DE2B9F85BA009813EC /* ContentView.swift */; };
+		7F90B4E12B9F85BC009813EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F90B4E02B9F85BC009813EC /* Assets.xcassets */; };
+		7F90B4E42B9F85BC009813EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F90B4E32B9F85BC009813EC /* Preview Assets.xcassets */; };
+		7F90B4EE2B9F85BD009813EC /* KruizeCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F90B4ED2B9F85BD009813EC /* KruizeCardTests.swift */; };
+		7F90B4F82B9F85BD009813EC /* KruizeCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F90B4F72B9F85BD009813EC /* KruizeCardUITests.swift */; };
+		7F90B4FA2B9F85BD009813EC /* KruizeCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F90B4F92B9F85BD009813EC /* KruizeCardUITestsLaunchTests.swift */; };
+		7F90B5082B9F89A3009813EC /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F90B5072B9F89A3009813EC /* Pacifico-Regular.ttf */; };
+		7F90B50D2B9F9C86009813EC /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F90B50C2B9F9C86009813EC /* InfoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F90B4EA2B9F85BD009813EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F90B4D12B9F85BA009813EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F90B4D82B9F85BA009813EC;
+			remoteInfo = KruizeCard;
+		};
+		7F90B4F42B9F85BD009813EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F90B4D12B9F85BA009813EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F90B4D82B9F85BA009813EC;
+			remoteInfo = KruizeCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F90B4D92B9F85BA009813EC /* KruizeCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KruizeCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F90B4DC2B9F85BA009813EC /* KruizeCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KruizeCardApp.swift; sourceTree = "<group>"; };
+		7F90B4DE2B9F85BA009813EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7F90B4E02B9F85BC009813EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F90B4E32B9F85BC009813EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7F90B4E92B9F85BD009813EC /* KruizeCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KruizeCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F90B4ED2B9F85BD009813EC /* KruizeCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KruizeCardTests.swift; sourceTree = "<group>"; };
+		7F90B4F32B9F85BD009813EC /* KruizeCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KruizeCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F90B4F72B9F85BD009813EC /* KruizeCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KruizeCardUITests.swift; sourceTree = "<group>"; };
+		7F90B4F92B9F85BD009813EC /* KruizeCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KruizeCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7F90B5072B9F89A3009813EC /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		7F90B5092B9F8F82009813EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7F90B50C2B9F9C86009813EC /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		7F90B50F2B9FA3A6009813EC /* VarelaRound-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VarelaRound-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F90B4D62B9F85BA009813EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F90B4E62B9F85BD009813EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F90B4F02B9F85BD009813EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F90B4D02B9F85BA009813EC = {
+			isa = PBXGroup;
+			children = (
+				7F90B4DB2B9F85BA009813EC /* KruizeCard */,
+				7F90B4EC2B9F85BD009813EC /* KruizeCardTests */,
+				7F90B4F62B9F85BD009813EC /* KruizeCardUITests */,
+				7F90B4DA2B9F85BA009813EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F90B4DA2B9F85BA009813EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F90B4D92B9F85BA009813EC /* KruizeCard.app */,
+				7F90B4E92B9F85BD009813EC /* KruizeCardTests.xctest */,
+				7F90B4F32B9F85BD009813EC /* KruizeCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F90B4DB2B9F85BA009813EC /* KruizeCard */ = {
+			isa = PBXGroup;
+			children = (
+				7F90B5092B9F8F82009813EC /* Info.plist */,
+				7F90B5062B9F8965009813EC /* fonts */,
+				7F90B4DC2B9F85BA009813EC /* KruizeCardApp.swift */,
+				7F90B4DE2B9F85BA009813EC /* ContentView.swift */,
+				7F90B50C2B9F9C86009813EC /* InfoView.swift */,
+				7F90B4E02B9F85BC009813EC /* Assets.xcassets */,
+				7F90B4E22B9F85BC009813EC /* Preview Content */,
+			);
+			path = KruizeCard;
+			sourceTree = "<group>";
+		};
+		7F90B4E22B9F85BC009813EC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7F90B4E32B9F85BC009813EC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7F90B4EC2B9F85BD009813EC /* KruizeCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F90B4ED2B9F85BD009813EC /* KruizeCardTests.swift */,
+			);
+			path = KruizeCardTests;
+			sourceTree = "<group>";
+		};
+		7F90B4F62B9F85BD009813EC /* KruizeCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F90B4F72B9F85BD009813EC /* KruizeCardUITests.swift */,
+				7F90B4F92B9F85BD009813EC /* KruizeCardUITestsLaunchTests.swift */,
+			);
+			path = KruizeCardUITests;
+			sourceTree = "<group>";
+		};
+		7F90B5062B9F8965009813EC /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7F90B50F2B9FA3A6009813EC /* VarelaRound-Regular.ttf */,
+				7F90B5072B9F89A3009813EC /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F90B4D82B9F85BA009813EC /* KruizeCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F90B4FD2B9F85BD009813EC /* Build configuration list for PBXNativeTarget "KruizeCard" */;
+			buildPhases = (
+				7F90B4D52B9F85BA009813EC /* Sources */,
+				7F90B4D62B9F85BA009813EC /* Frameworks */,
+				7F90B4D72B9F85BA009813EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KruizeCard;
+			productName = KruizeCard;
+			productReference = 7F90B4D92B9F85BA009813EC /* KruizeCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F90B4E82B9F85BD009813EC /* KruizeCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F90B5002B9F85BD009813EC /* Build configuration list for PBXNativeTarget "KruizeCardTests" */;
+			buildPhases = (
+				7F90B4E52B9F85BD009813EC /* Sources */,
+				7F90B4E62B9F85BD009813EC /* Frameworks */,
+				7F90B4E72B9F85BD009813EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F90B4EB2B9F85BD009813EC /* PBXTargetDependency */,
+			);
+			name = KruizeCardTests;
+			productName = KruizeCardTests;
+			productReference = 7F90B4E92B9F85BD009813EC /* KruizeCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F90B4F22B9F85BD009813EC /* KruizeCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F90B5032B9F85BD009813EC /* Build configuration list for PBXNativeTarget "KruizeCardUITests" */;
+			buildPhases = (
+				7F90B4EF2B9F85BD009813EC /* Sources */,
+				7F90B4F02B9F85BD009813EC /* Frameworks */,
+				7F90B4F12B9F85BD009813EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F90B4F52B9F85BD009813EC /* PBXTargetDependency */,
+			);
+			name = KruizeCardUITests;
+			productName = KruizeCardUITests;
+			productReference = 7F90B4F32B9F85BD009813EC /* KruizeCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F90B4D12B9F85BA009813EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					7F90B4D82B9F85BA009813EC = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					7F90B4E82B9F85BD009813EC = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 7F90B4D82B9F85BA009813EC;
+					};
+					7F90B4F22B9F85BD009813EC = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 7F90B4D82B9F85BA009813EC;
+					};
+				};
+			};
+			buildConfigurationList = 7F90B4D42B9F85BA009813EC /* Build configuration list for PBXProject "KruizeCard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F90B4D02B9F85BA009813EC;
+			productRefGroup = 7F90B4DA2B9F85BA009813EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F90B4D82B9F85BA009813EC /* KruizeCard */,
+				7F90B4E82B9F85BD009813EC /* KruizeCardTests */,
+				7F90B4F22B9F85BD009813EC /* KruizeCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F90B4D72B9F85BA009813EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F90B5082B9F89A3009813EC /* Pacifico-Regular.ttf in Resources */,
+				7F90B4E42B9F85BC009813EC /* Preview Assets.xcassets in Resources */,
+				7F90B4E12B9F85BC009813EC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F90B4E72B9F85BD009813EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F90B4F12B9F85BD009813EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F90B4D52B9F85BA009813EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F90B4DF2B9F85BA009813EC /* ContentView.swift in Sources */,
+				7F90B50D2B9F9C86009813EC /* InfoView.swift in Sources */,
+				7F90B4DD2B9F85BA009813EC /* KruizeCardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F90B4E52B9F85BD009813EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F90B4EE2B9F85BD009813EC /* KruizeCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F90B4EF2B9F85BD009813EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F90B4FA2B9F85BD009813EC /* KruizeCardUITestsLaunchTests.swift in Sources */,
+				7F90B4F82B9F85BD009813EC /* KruizeCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F90B4EB2B9F85BD009813EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F90B4D82B9F85BA009813EC /* KruizeCard */;
+			targetProxy = 7F90B4EA2B9F85BD009813EC /* PBXContainerItemProxy */;
+		};
+		7F90B4F52B9F85BD009813EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F90B4D82B9F85BA009813EC /* KruizeCard */;
+			targetProxy = 7F90B4F42B9F85BD009813EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7F90B4FB2B9F85BD009813EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F90B4FC2B9F85BD009813EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F90B4FE2B9F85BD009813EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KruizeCard/Preview Content\"";
+				DEVELOPMENT_TEAM = 56HSAHRD97;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KruizeCard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TechWizz.KruizeCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F90B4FF2B9F85BD009813EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KruizeCard/Preview Content\"";
+				DEVELOPMENT_TEAM = 56HSAHRD97;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KruizeCard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TechWizz.KruizeCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F90B5012B9F85BD009813EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56HSAHRD97;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TechWizz.KruizeCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KruizeCard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KruizeCard";
+			};
+			name = Debug;
+		};
+		7F90B5022B9F85BD009813EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56HSAHRD97;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TechWizz.KruizeCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KruizeCard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KruizeCard";
+			};
+			name = Release;
+		};
+		7F90B5042B9F85BD009813EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56HSAHRD97;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TechWizz.KruizeCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KruizeCard;
+			};
+			name = Debug;
+		};
+		7F90B5052B9F85BD009813EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56HSAHRD97;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TechWizz.KruizeCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KruizeCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F90B4D42B9F85BA009813EC /* Build configuration list for PBXProject "KruizeCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F90B4FB2B9F85BD009813EC /* Debug */,
+				7F90B4FC2B9F85BD009813EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F90B4FD2B9F85BD009813EC /* Build configuration list for PBXNativeTarget "KruizeCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F90B4FE2B9F85BD009813EC /* Debug */,
+				7F90B4FF2B9F85BD009813EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F90B5002B9F85BD009813EC /* Build configuration list for PBXNativeTarget "KruizeCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F90B5012B9F85BD009813EC /* Debug */,
+				7F90B5022B9F85BD009813EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F90B5032B9F85BD009813EC /* Build configuration list for PBXNativeTarget "KruizeCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F90B5042B9F85BD009813EC /* Debug */,
+				7F90B5052B9F85BD009813EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F90B4D12B9F85BA009813EC /* Project object */;
+}
