@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F1B3F2F2BA0BAB000D4ADBC /* PixelifySans-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F1B3F2E2BA0BAB000D4ADBC /* PixelifySans-VariableFont_wght.ttf */; };
+		7F1B3F312BA0BD3200D4ADBC /* PixelifySans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7F1B3F302BA0BD3200D4ADBC /* PixelifySans-Regular.ttf */; };
+		7F1B3F332BA0C2E200D4ADBC /* CInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1B3F322BA0C2E200D4ADBC /* CInfoView.swift */; };
 		7F90B4DD2B9F85BA009813EC /* KruizeCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F90B4DC2B9F85BA009813EC /* KruizeCardApp.swift */; };
 		7F90B4DF2B9F85BA009813EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F90B4DE2B9F85BA009813EC /* ContentView.swift */; };
 		7F90B4E12B9F85BC009813EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F90B4E02B9F85BC009813EC /* Assets.xcassets */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F1B3F2E2BA0BAB000D4ADBC /* PixelifySans-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PixelifySans-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		7F1B3F302BA0BD3200D4ADBC /* PixelifySans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PixelifySans-Regular.ttf"; sourceTree = "<group>"; };
+		7F1B3F322BA0C2E200D4ADBC /* CInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CInfoView.swift; sourceTree = "<group>"; };
 		7F90B4D92B9F85BA009813EC /* KruizeCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KruizeCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F90B4DC2B9F85BA009813EC /* KruizeCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KruizeCardApp.swift; sourceTree = "<group>"; };
 		7F90B4DE2B9F85BA009813EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,7 +55,6 @@
 		7F90B5072B9F89A3009813EC /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 		7F90B5092B9F8F82009813EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		7F90B50C2B9F9C86009813EC /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
-		7F90B50F2B9FA3A6009813EC /* VarelaRound-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "VarelaRound-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,7 @@
 				7F90B4DC2B9F85BA009813EC /* KruizeCardApp.swift */,
 				7F90B4DE2B9F85BA009813EC /* ContentView.swift */,
 				7F90B50C2B9F9C86009813EC /* InfoView.swift */,
+				7F1B3F322BA0C2E200D4ADBC /* CInfoView.swift */,
 				7F90B4E02B9F85BC009813EC /* Assets.xcassets */,
 				7F90B4E22B9F85BC009813EC /* Preview Content */,
 			);
@@ -139,7 +145,8 @@
 		7F90B5062B9F8965009813EC /* fonts */ = {
 			isa = PBXGroup;
 			children = (
-				7F90B50F2B9FA3A6009813EC /* VarelaRound-Regular.ttf */,
+				7F1B3F302BA0BD3200D4ADBC /* PixelifySans-Regular.ttf */,
+				7F1B3F2E2BA0BAB000D4ADBC /* PixelifySans-VariableFont_wght.ttf */,
 				7F90B5072B9F89A3009813EC /* Pacifico-Regular.ttf */,
 			);
 			path = fonts;
@@ -249,6 +256,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F1B3F2F2BA0BAB000D4ADBC /* PixelifySans-VariableFont_wght.ttf in Resources */,
+				7F1B3F312BA0BD3200D4ADBC /* PixelifySans-Regular.ttf in Resources */,
 				7F90B5082B9F89A3009813EC /* Pacifico-Regular.ttf in Resources */,
 				7F90B4E42B9F85BC009813EC /* Preview Assets.xcassets in Resources */,
 				7F90B4E12B9F85BC009813EC /* Assets.xcassets in Resources */,
@@ -276,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F1B3F332BA0C2E200D4ADBC /* CInfoView.swift in Sources */,
 				7F90B4DF2B9F85BA009813EC /* ContentView.swift in Sources */,
 				7F90B50D2B9F9C86009813EC /* InfoView.swift in Sources */,
 				7F90B4DD2B9F85BA009813EC /* KruizeCardApp.swift in Sources */,
